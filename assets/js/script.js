@@ -199,7 +199,7 @@ function userPrompts() {
     var lower = window.confirm("Would you like to use lowercase characters?:");
     var upper = window.confirm("Would you like to use uppercase characters?:");
     var numer = window.confirm("Would you like to use numeric characters?:");
-    var spec = window.confirm("Would you like to use special characters");
+    var spec = window.confirm("Would you like to use special characters?:");
     passwordCriteria = [length, lower, upper, numer, spec];
     //clears old password
     generatedPassword = [];
