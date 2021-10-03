@@ -196,10 +196,10 @@ function userPrompts() {
       window.alert("please enter a valid number between 8 and 128");
       return userPrompts();
     }
-    var lower = window.confirm("Would you like to use lowercase characters?:");
-    var upper = window.confirm("Would you like to use uppercase characters?:");
-    var numer = window.confirm("Would you like to use numeric characters?:");
-    var spec = window.confirm("Would you like to use special characters?:");
+    var lower = window.confirm("Would you like to use lowercase characters? (press ok for 'yes' or cancel for 'no'):");
+    var upper = window.confirm("Would you like to use uppercase characters? (press ok for 'yes' or cancel for 'no'):");
+    var numer = window.confirm("Would you like to use numeric characters? (press ok for 'yes' or cancel for 'no'):");
+    var spec = window.confirm("Would you like to use special characters? (press ok for 'yes' or cancel for 'no'):");
     passwordCriteria = [length, lower, upper, numer, spec];
   
     //clears old password
