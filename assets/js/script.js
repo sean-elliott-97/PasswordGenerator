@@ -201,11 +201,19 @@ function userPrompts() {
     var numer = window.confirm("Would you like to use numeric characters?:");
     var spec = window.confirm("Would you like to use special characters?:");
     passwordCriteria = [length, lower, upper, numer, spec];
+  
     //clears old password
     generatedPassword = [];
     //resets startingArr
   startingArr=0;
+  //ensures that users select at least one criteria
+  if(passwordCriteria[1]==""&&passwordCriteria[2]==""&&passwordCriteria[3]==""&&passwordCriteria[4]=="")
+  {
+    window.alert("you must select a criteria!");
+    return userPrompts();
   }
+  }
+  
 }
 
 //ensures that password contains at least one of each of the desired characters from the above character arrays
