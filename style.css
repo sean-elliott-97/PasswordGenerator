@@ -1,9 +1,11 @@
+/*all content on page has box-sizing modified*/
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
 
+/*html, body, and wrapper class are given a new height, margin, and padding
 html,
 body,
 .wrapper {
@@ -12,17 +14,19 @@ body,
   padding: 0;
 }
 
+/*font family and background color of body is modified*/
 body {
   font-family: sans-serif;
   background-color: #f9fbfd;
 }
 
+/*wrapper containing body elements is padded*/
 .wrapper {
   padding-top: 30px;
   padding-left: 20px;
   padding-right: 20px;
 }
-
+/*header of page is centered and padded and is given a new color*/
 header {
   text-align: center;
   padding: 20px;
@@ -30,6 +34,7 @@ header {
   color: hsl(206, 17%, 28%);
 }
 
+/*appearance of card containing generate password button and text area is modified*/
 .card {
   background-color: hsl(0, 0%, 100%);
   border-radius: 5px;
@@ -97,6 +102,7 @@ button[disabled] {
   float: right;
 }
 
+/*appearance of the password is modified*/
 #password {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -118,6 +124,7 @@ button[disabled] {
   overflow: hidden;
 }
 
+/*The generate password button and text area for the password are modified*/
 @media (max-width: 690px) {
   .btn {
     font-size: 1rem;
