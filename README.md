@@ -15,3 +15,8 @@ Answers to prompts will be validated and at least one character type will be sel
 When all prompts are answered, a random password is generated.
 
 When the random password is generated, it is written to the page.
+
+Screenshot of application:
+![PasswordGeneratorScreenshot](https://user-images.githubusercontent.com/89947920/135760428-5c2fdaf1-d462-4beb-aa6a-925058b352a6.png)
+
+Link to deployed application: https://sean-elliott-97.github.io/PasswordGenerator/
